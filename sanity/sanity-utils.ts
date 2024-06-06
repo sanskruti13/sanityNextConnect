@@ -5,7 +5,7 @@ export async function getProjects(): Promise <book[]>{
     const client = createClient({
         projectId: 'oet0l5ch',
         dataset: 'production',
-        apiVersion: "2024-06-05",
+        apiVersion: "2024-06-06",
         useCdn: false
     });
 
@@ -26,7 +26,7 @@ export async function getProject(slug: string): Promise <book>{
     const client = createClient({
         projectId: 'oet0l5ch',
         dataset: 'production',
-        apiVersion: "2024-06-05",
+        apiVersion: "2024-06-06",
         useCdn: false
     });
 

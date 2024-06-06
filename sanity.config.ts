@@ -6,7 +6,7 @@ const config = defineConfig({
     projectId: 'oet0l5ch',
     dataset: 'production',
     title: "Sanskruti kale",
-    apiVersion: "2024-05-29",
+    apiVersion: "2024-06-06",
     basePath: "/admin",
     plugins: [deskTool()],
     schema: { types: schemas },
